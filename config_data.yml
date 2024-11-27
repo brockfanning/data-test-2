@@ -39,9 +39,8 @@ src_dir: ''
 # folder. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 inputs:
-  - class: InputCsvData
-    # This describes the data files, relative to the "src_dir" indicated above.
-    path_pattern: data/*-*.csv
+  - class: InputSdmxMl_Structure
+    source: 'https://data.un.org/ws/rest/data/IAEG-SDGs,DF_SDG_GLH,1.19/..SI_POV_DAY1+SI_POV_EMP1............/ALL/?detail=full&dimensionAtObservation=TIME_PERIOD'
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
