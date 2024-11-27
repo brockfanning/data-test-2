@@ -39,8 +39,11 @@ src_dir: ''
 # folder. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 inputs:
-  - class: InputSdmxMl_StructureSpecific
+  - class: InputSdmxMl_Structure
     source: 'https://data.un.org/ws/rest/data/IAEG-SDGs,DF_SDG_GLH,1.19/..SI_POV_DAY1+SI_POV_EMP1............/ALL/?detail=full&dimensionAtObservation=TIME_PERIOD'
+    import_codes: true
+    import_names: false
+    dsd: 'https://registry.sdmx.org/sdmx/v2/structure/dataflow/IAEG-SDGs/all/+/?format=sdmx-2.1&references=all&prettyPrint=true'
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
