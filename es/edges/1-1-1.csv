@@ -1,15 +1,9 @@
 From,To
 BASE_PER,COMMENT_OBS
-Source details,BASE_PER
+TIME_DETAIL,BASE_PER
 NATURE,SOURCE_DETAIL
-COMMENT_OBS,Base period
-SOURCE_DETAIL,SDG Series
-SDG Series,Reference area
-Reference area,Date of the most recent change of the series.
-Source details,Sex
-Source details,Age
-Observation-level footnotes,Degree of urbanisation
-Date of the most recent change of the series.,Nature of data points
-Base period,Observation-level footnotes
-Nature of data points,Time period details
-Time period details,Source details
+COMMENT_OBS,URBANISATION
+SOURCE_DETAIL,REF_AREA
+REF_AREA,TIME_DETAIL
+TIME_DETAIL,SEX
+TIME_DETAIL,AGE
